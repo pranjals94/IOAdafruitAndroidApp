@@ -20,7 +20,7 @@ class mqtt_utils {
      val hostname = "io.adafruit.com"
      val port = 1883
      val username = "your_adafruit_username"
-     val aioKey = "your_adafruit_key"
+     val aioKey = "your_adafruit_key" // adafruit keeps refreshing this key after every few days , need to keep changing here also
      val topic = "$username/feeds/test"
 
     // by using different clientID_subscriber we can subscribe to a topic using multiple clients
